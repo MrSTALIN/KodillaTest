@@ -1,0 +1,31 @@
+{
+  "name": "kodilla-grunt-test",
+  "version": "1.0.0",
+  "description": "Example grunt proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSTALIN/KodillaTest.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Janusz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSTALIN/KodillaTest/issues"
+  },
+  "homepage": "https://github.com/MrSTALIN/KodillaTest#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
