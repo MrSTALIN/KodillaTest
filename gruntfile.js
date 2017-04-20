@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'style.css': 'style.sass'
+                'CSS/style.css': 'SASS/style.sass'
             }
         }
     },
@@ -44,7 +44,7 @@ module.exports = function(grunt) {
             },
             options: {
                 watchTask: true,
-                server: './'
+                server: './',
                 browser: "google chrome"
             }
         }
