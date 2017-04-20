@@ -44,7 +44,7 @@ module.exports = function(grunt) {
             },
             options: {
                 watchTask: true,
-                server: './app'
+                server: './'
                 browser: "google chrome"
             }
         }
