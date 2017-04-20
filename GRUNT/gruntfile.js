@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         },
         dist: {
             files: {
-                'main.css': 'main.sass'
+                'style.css': 'style.sass'
             }
         }
     },
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         dynamic: {
             files: [{
                 expand: true,
-                cwd: 'images/',
+                cwd: 'IMAGES/',
                 src: ['**/*.{png,jpg,gif}'],
                 dest: 'images/build/'
             }]
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 
     watch: {
         scripts: {
-            files: ['sass/*.sass'],
+            files: ['SASS/*.sass'],
             tasks: ['sass'],
             options: {
                 spawn: false,
@@ -38,8 +38,8 @@ module.exports = function(grunt) {
         dev: {
             bsFiles: {
                 src : [
-                    'app/css/*.css',
-                    'app/*.html'
+                    'CSS/*.css',
+                    'HTML/*.html'
                 ]
             },
             options: {
